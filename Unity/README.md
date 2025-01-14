@@ -4,7 +4,9 @@
 This folder contains Unity Environments, with other useful files, and Randomizers specifically designed for generating synthetic datasets with increasing levels of realism. These environments were developed to replicate endoscopic surgical views and facilitate automated annotation using the **Unity Perception Package**.
 
 ## Contents:
-1. **Environments**
+1. **3D-Models**: 
+   - 3D Models of objects as Unity file, also available as .obj files in [3D-Models](Surgical-Synthetic-Data-Generation-and-Segmentation/3D-Models) to allow for any changes
+2. **Environments**
    1. **Random Scene**: 
       - Objects placed randomly to ensure diverse orientations and positions.
       - Randomized backgrounds for variability.
@@ -15,7 +17,7 @@ This folder contains Unity Environments, with other useful files, and Randomizer
       - Similar to Endoscope1 but with enhanced lighting and rendering for higher realism.
    4. **Materials**:
       - Materials used in unity to give realism to objects
-2. **Randomizers**:
+3. **Randomizers**:
    1. **MaterialSwapperRandomizer**: C# code to change objects' materials/colour during dataset generation
    2. **ToolSwapperRandomizer**: C# code to make objects appear and disappear during dataset generation in order to create diverse scenes
 
