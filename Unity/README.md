@@ -5,18 +5,22 @@ This folder contains Unity Environments, with other useful files, and Randomizer
 
 ## Contents:
 1. **3D-Models**: 
-   - 3D Models of objects as Unity file, also available as .obj files in [3D-Models](Surgical-Synthetic-Data-Generation-and-Segmentation/3D-Models) to allow for any changes
+   - 3D Models of objects as Unity file, also available as .obj files in [3D-Models][https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/3D-Models] to allow for any changes
 2. **Environments**
-   1. **Random Scene**: 
+   1. **Random**: 
       - Objects placed randomly to ensure diverse orientations and positions.
       - Randomized backgrounds for variability.
-   2. **Endoscope1 Scene**: 
+   2. **Endoscope1**: 
       - Surgical tools (Cadiere Forceps, Needle Driver and Potts Scissors) positioned realistically on either side.
       - Needle and tissue located centrally to simulate typical suturing scenarios.
-   3. **Endoscope2 Scene**: 
+   3. **Endoscope2**: 
       - Similar to Endoscope1 but with enhanced lighting and rendering for higher realism.
    4. **Materials**:
       - Materials used in unity to give realism to objects
+   5. **Configuration Files**:
+      - Assets that define a taxonomy of labels for ground truth generation:
+      1. **LabelConfiguration**
+      2. **SegmentationLabelConfiguration**
 3. **Randomizers**:
    1. **MaterialSwapperRandomizer**: C# code to change objects' materials/colour during dataset generation
    2. **ToolSwapperRandomizer**: C# code to make objects appear and disappear during dataset generation in order to create diverse scenes
@@ -33,3 +37,6 @@ To use these environments:
 If you utilize these Unity environments in your research, please reference our work:
 > *""* [DOI/Link]
 
+
+
+[def]: 3D-Models
