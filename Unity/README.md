@@ -28,7 +28,7 @@ This folder contains Unity Environments, with other useful files, and Randomizer
 To use these environments:
 1. Install the Unity Perception Package.
 2. Import the Unity files in your Unity project.
-3. Follow Unity's Perception package tutorial (https://github.com/Unity-Technologies/com.unity.perception) to make the best use of their resources and those available in this repository.
+3. Follow Unity's Perception package [tutorial](https://github.com/Unity-Technologies/com.unity.perception) to make the best use of their resources and those available in this repository.
 4. Run the provided scenes to generate annotated images.
 
 ## Citation
