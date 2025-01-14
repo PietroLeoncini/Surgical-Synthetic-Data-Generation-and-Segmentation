@@ -5,7 +5,7 @@ This folder contains Unity Environments, with other useful files, and Randomizer
 
 ## Contents:
 1. **3D-Models**: 
-   - 3D Models of objects as Unity file, also available as .obj files in [3D-Models][https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/3D-Models] to allow for any changes
+   - 3D Models of objects as Unity file, also available as .obj files in [3D-Models](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/3D-Models) to allow for any changes
 2. **Environments**
    1. **Random**: 
       - Objects placed randomly to ensure diverse orientations and positions.
@@ -26,9 +26,9 @@ This folder contains Unity Environments, with other useful files, and Randomizer
 
 ## Usage
 To use these environments:
-1. Import the Unity files in your Unity project.
-2. Install the Unity Perception Package.
-3. Follow Unity's Perception package tutorial (https://github.com/Unity-Technologies/com.unity.perception) to make the best use of their resources and those available in this repository
+1. Install the Unity Perception Package.
+2. Import the Unity files in your Unity project.
+3. Follow Unity's Perception package tutorial (https://github.com/Unity-Technologies/com.unity.perception) to make the best use of their resources and those available in this repository.
 4. Run the provided scenes to generate annotated images.
 
 ## Citation
