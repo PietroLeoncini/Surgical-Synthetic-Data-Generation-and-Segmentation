@@ -3,6 +3,7 @@
 This repository contains resources developed to contribute research toward suture automation:
 
 - [**3D-Models**](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/3D-Models): Task-specific `.obj` models for robotic tools, surgical needle and tissue-cuts.
+- [**Datasets**](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/Datasets)**: Annotated `rgb` images generated in Unity, including bounding boxes and instance segmentation `txt` files.
 - [**Unity files**](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/Unity):
     1. [3D-Models](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/Unity/3D-Models): 3d models as unity file ready to use in Unity
     2. [Environments](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/Unity/Environments): 
@@ -10,7 +11,6 @@ This repository contains resources developed to contribute research toward sutur
         - materials used to change visual features of objects
         - configuration files to create ground-truth annotations
     3. [Randomizers](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/Unity/Randomizers): `C#` scripts to introduce variability in the simulation and so in the datasets
-- [**Datasets**](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/Datasets)**: Annotated `rgb` images generated in Unity, including bounding boxes and instance segmentation `txt` files.
 - **Instance Segmentation Model**: A YOLOv8m-based model trained for surgical tool instance segmentation.
 
 ## Usage Instructions
