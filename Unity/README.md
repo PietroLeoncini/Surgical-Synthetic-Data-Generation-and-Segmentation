@@ -15,12 +15,10 @@ This folder contains Unity Environments, with other useful files, and Randomizer
       - Needle and tissue located centrally to simulate typical suturing scenarios.
    3. **Endoscope2**: 
       - Similar to Endoscope1 but with enhanced lighting and rendering for higher realism.
-   4. **Materials**:
-      - Materials used in unity to give realism to objects
-   5. **Configuration Files**:
-      - Assets that define a taxonomy of labels for ground truth generation:
+   4. **Materials**: materials used in unity to give realism to objects
+   5. **Configuration Files**: assets that define a taxonomy of labels for ground truth generation:
       1. **LabelConfiguration**
-      2. **SegmentationLabelConfiguration**
+      2. **SegmentationLabelConfiguration** 
 3. **Randomizers**:
    1. **MaterialSwapperRandomizer**: C# code to change objects' materials/colour during dataset generation
    2. **ToolSwapperRandomizer**: C# code to make objects appear and disappear during dataset generation in order to create diverse scenes
