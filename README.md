@@ -3,7 +3,7 @@
 This repository contains resources developed to contribute research toward suture automation:
 
 - [**3D-Models**](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/3D-Models): Task-specific `.obj` models for robotic tools, surgical needle and tissue-cuts.
-- [**Datasets**](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/Datasets)**: Annotated `rgb` images generated in Unity, including bounding boxes and instance segmentation `txt` files.
+- [**Datasets**](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/Datasets)**: Annotated `rgb` images generated in Unity, including bounding boxes and instance segmentation annotations as `txt` files. 
 - [**Unity files**](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/Unity):
     1. [3D-Models](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/Unity/3D-Models): 3d models as unity file ready to use in Unity
     2. [Environments](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/Unity/Environments): 
