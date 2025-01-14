@@ -1,11 +1,11 @@
 # Unity Environments for Synthetic Dataset Generation
 
 ## Overview
-This folder contains Unity Environments, with other useful files, and Randomizers specifically designed for generating synthetic datasets with increasing levels of realism. These environments were developed to replicate endoscopic surgical views and facilitate automated annotation using the **Unity Perception Package**.
+This folder contains Unity Environments, with other useful files, and Randomizers specifically designed for generating synthetic datasets with increasing levels of realism. These environments were developed to replicate endoscopic surgical views and facilitate automated annotation using the [Unity Perception Package](https://docs.unity3d.com/Packages/com.unity.perception@1.0/manual/index.html).
 
 ## Contents:
 1. **3D-Models**: 
-   - 3D Models of objects as Unity file, also available as .obj files in [3D-Models](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/3D-Models) to allow for any changes
+   - 3D Models of objects as Unity file, also available as `.obj` files in [3D-Models](https://github.com/PietroLeoncini/Surgical-Synthetic-Data-Generation-and-Segmentation/tree/main/3D-Models) to allow for any changes
 2. **Environments**
    1. **Random**: 
       - Objects placed randomly to ensure diverse orientations and positions.
@@ -20,8 +20,8 @@ This folder contains Unity Environments, with other useful files, and Randomizer
       1. **LabelConfiguration**
       2. **SegmentationLabelConfiguration** 
 3. **Randomizers**:
-   1. **MaterialSwapperRandomizer**: C# code to change objects' materials/colour during dataset generation
-   2. **ToolSwapperRandomizer**: C# code to make objects appear and disappear during dataset generation in order to create diverse scenes
+   1. **MaterialSwapperRandomizer**: `C#` code to change objects' materials/colour during dataset generation
+   2. **ToolSwapperRandomizer**: `C#` code to make objects appear and disappear during dataset generation in order to create diverse scenes
 
 
 ## Usage

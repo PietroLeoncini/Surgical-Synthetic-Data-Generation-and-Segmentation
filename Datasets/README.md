@@ -16,8 +16,8 @@ This folder contains Real and Synthetic datasets for training computer vision mo
 - **Instance Segmentation**: For instance segmentation tasks.
 
 ## Generation
-- **Synthetic datasets** were generated using Unity environments and 3D models, provided in this GitHub repository, exploiting Unity's Perception Package. It is recommended to look at https://github.com/Unity-Technologies/com.unity.perception which contains a tutorial on how to make the most of the functionality of Unity with the perception package
-- **Real images** were manually annotated using **Roboflow** (https://roboflow.com/).
+- **Synthetic datasets** were generated using Unity environments and 3D models, provided in this GitHub repository, exploiting [Unity Perception Package](https://docs.unity3d.com/Packages/com.unity.perception@1.0/manual/index.html). It is recommended to look at this [tutorial](https://github.com/Unity-Technologies/com.unity.perception) on how to make the most of the functionality of Unity with the perception package.
+- **Real images** were manually annotated using [Roboflow](https://roboflow.com/).
 
 ## Applications
 These datasets can be used for:
