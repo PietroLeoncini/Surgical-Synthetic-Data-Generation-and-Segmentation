@@ -1,7 +1,7 @@
 # Synthetic and Real Datasets for Computer Vision in Robotic Suturing
 
 ## Overview
-This folder contains Real and Synthetic datasets for training computer vision models in robotic suturing tasks. The datasets include bounding boxes and instance-based (objects' contours) annotations, offering a task-specific resource for advancing surgical automation.
+This [Zenodo](https://doi.org/10.5281/zenodo.14671906) folder contains Real and Synthetic datasets for training computer vision models in robotic suturing tasks. The datasets include bounding boxes and instance-based (objects' contours) annotations, offering a task-specific resource for advancing surgical automation.
 
 ## Contents
 1. **Synthetic Datasets**: RGB Images + txt annotations
@@ -9,7 +9,7 @@ This folder contains Real and Synthetic datasets for training computer vision mo
    - **Endoscope1**: Typical suturing scenario (1000 images).
    - **Endoscope2**: Realistic lighting and context (1000 images).
 2. **Real Dataset**: RGB Images + txt annotations
-   - 200 manually annotated real images with Roboflow.
+   - 170 manually annotated real images with Roboflow.
 
 ## Annotations
 - **Bounding Boxes**: For object detection tasks.
