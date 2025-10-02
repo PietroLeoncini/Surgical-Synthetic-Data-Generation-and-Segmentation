@@ -21,6 +21,22 @@ This repository contains resources developed to contribute research toward sutur
 4. Modify these environments or run the simulation to generate new annotated images.
 5. Use the datasets for training or fine-tuning your own models or testing pre-trained models.
 
+## Citation
+
+If you use this repository, please cite:
+
+```bibtex
+@article{Leoncini2025,
+  title={A reproducible framework for synthetic data generation and instance segmentation in robotic suturing},
+  author={Leoncini Pietro, Marzola Francesco, Pescio Matteo, Casadio Maura, Arezzo Alberto, Dagnino Giulio},
+  journal={International Journal of Computer Assisted Radiology and Surgery},
+  year={2025},
+  volume={20},
+  pages={1567 - 1576},
+  doi={10.1007/s11548-025-03460-8}
+}
+```
+
 
 ## License
 
