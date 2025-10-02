@@ -15,8 +15,16 @@ This folder contains Unity Environments, with other useful files, and Randomizer
       - Needle and tissue located centrally to simulate typical suturing scenarios.
    3. **Endoscope2**: 
       - Similar to Endoscope1 but with enhanced lighting and rendering for higher realism.
-   4. **Materials**: materials used in unity to give realism to objects
-   5. **Configuration Files**: assets that define a taxonomy of labels for ground truth generation:
+   4. **GenAI-TURBO-TypeBased**:
+      - New and more realistic version version compared to the previous scenarios
+      - Type-Based configuration of surgical tools
+      - Same Tools arrangements as previous scenarios with porcine colons placed centrally
+   5. 4. **GenAI-TURBO-PartBased**:
+      - New and more realistic version version compared to the previous scenarios
+      - Part-Based configuration of surgical tools
+      - Same Tools arrangements as previous scenarios with porcine colons placed centrally
+   6. **Materials**: materials used in unity to give realism to objects
+   7. **Configuration Files**: assets that define a taxonomy of labels for ground truth generation:
       1. **LabelConfiguration**
       2. **SegmentationLabelConfiguration** 
 3. **Randomizers**:
@@ -32,8 +40,16 @@ To use these environments:
 4. Run the provided scenes to generate annotated images.
 
 ## Citation
-If you utilize these Unity environments in your research, please reference our work:
-> *""* [DOI/Link]
+```bibtex
+@article{Leoncini2025,
+  title={A reproducible framework for synthetic data generastion and instance segmentation in robotic suturing},
+  author={Leoncini Pietro, Marzola Francesco, Pescio Matteo, Casadio Maura, Arezzo Alberto, Dagnino Giulio},
+  journal={International Journal of Computer Assisted Radiology and Surgery},
+  year={2025},
+  volume={20},
+  pages={1567 - 1576},
+  doi={10.1007/s11548-025-03460-8}
+}
 
 
 
