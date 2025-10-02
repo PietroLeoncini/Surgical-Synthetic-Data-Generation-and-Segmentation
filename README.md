@@ -36,8 +36,3 @@ If you use this repository, please cite:
   doi={10.1007/s11548-025-03460-8}
 }
 ```
-
-
-## License
-
-The resources in this repository are provided under the [LICENSE] file.
